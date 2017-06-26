@@ -41,11 +41,16 @@ public class MainActivity extends BaseActivity {
     }
 
     private void initView() {
-        HomePagerAdapter adapter = new HomePagerAdapter(getSupportFragmentManager());
+        HomePagerAdapter adapter = new HomePagerAdapter(getSupportFragmentManager(), this);
         vp.setAdapter(adapter);
         vp.setOffscreenPageLimit(3);
         vp.setCurrentItem(1);
         tab.setupWithViewPager(vp);
+        tab.setTabMode(TabLayout.MODE_FIXED);
+        for (int i = 0; i < tab.getTabCount(); i++) {
+            TabLayout.Tab iTab = tab.getTabAt(i);
+            iTab.setCustomView(adapter.getTabView(i));
+        }
     }
 
     private void initListener() {
