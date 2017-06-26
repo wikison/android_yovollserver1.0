@@ -14,7 +14,7 @@
     <string name="mobile_num">手机号码</string>
     <string name="btn_register">注册</string>
     <string name="btn_register_login">注册并登录</string>
-    <string name="txt_register_notnow">先去看看 ></string>
+    <string name="txt_be_server">成为约服管家 ></string>
     <string name="txt_86">+86</string>
     <string name="txt_register_getcode">获取验证码</string>
     <string name="txt_register_phone">请输入您的手机号码</string>
@@ -366,4 +366,5 @@
     <string name="forfastreceive">为了第一时间收到客户的服务需求</string>
     <string name="member_privilege">会员特权?</string>
     <string name="how_design">如何设计?</string>
+    <string name="login">登录</string>
 </resources>

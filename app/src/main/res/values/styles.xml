@@ -79,6 +79,8 @@
         <item name="android:layout_marginLeft">@dimen/margin_12dp</item>
     </style>
 
+
+
     <style name="divider_margin_top" parent="view1dp">
         <item name="android:layout_height">1px</item>
         <item name="android:background">@color/divider_dc</item>
@@ -109,6 +111,13 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1px</item>
         <item name="android:background">#dcdcdc</item>
+    </style>
+
+    <style name="divider_be_server">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">14dp</item>
+        <item name="android:background">#BBBBBB</item>
+        <item name="android:layout_marginLeft">20dp</item>
     </style>
 
     <!-- 自定义透明对话框样式 -->
@@ -700,6 +709,10 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/font_black_aa</item>
         <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="CheckboxEye" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkboxeye</item>
     </style>
 
 </resources>
