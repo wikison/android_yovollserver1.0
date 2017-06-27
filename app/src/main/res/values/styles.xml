@@ -715,4 +715,8 @@
         <item name="android:button">@drawable/checkboxeye</item>
     </style>
 
+    <style name="CheckboxPosition" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkboxposition</item>
+    </style>
+
 </resources>

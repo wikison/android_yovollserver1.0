@@ -3,10 +3,12 @@ package com.zemult.yovollserver.activity;
 import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.flyco.roundview.RoundLinearLayout;
 import com.flyco.roundview.RoundTextView;
 import com.zemult.yovollserver.R;
 import com.zemult.yovollserver.app.BaseActivity;
@@ -20,6 +22,7 @@ import butterknife.OnClick;
  */
 
 public class BeServerGuideSecondActivity extends BaseActivity {
+
     @Bind(R.id.lh_btn_back)
     Button lhBtnBack;
     @Bind(R.id.ll_back)
@@ -40,10 +43,22 @@ public class BeServerGuideSecondActivity extends BaseActivity {
     Button lhBtnRight;
     @Bind(R.id.lh_btn_rightiamge)
     Button lhBtnRightiamge;
-    @Bind(R.id.tv_text)
-    TextView tvText;
-    @Bind(R.id.rtv_join_now)
-    RoundTextView rtvJoinNow;
+    @Bind(R.id.rll_bind_merchant)
+    RoundLinearLayout rllBindMerchant;
+    @Bind(R.id.rll_position)
+    RoundLinearLayout rllPosition;
+    @Bind(R.id.rll_user_info)
+    RoundLinearLayout rllUserInfo;
+    @Bind(R.id.rll_notify)
+    RoundLinearLayout rllNotify;
+    @Bind(R.id.rll_contact)
+    RoundLinearLayout rllContact;
+    @Bind(R.id.cb_agree)
+    CheckBox cbAgree;
+    @Bind(R.id.tv_protocol)
+    TextView tvProtocol;
+    @Bind(R.id.rtv_finish)
+    RoundTextView rtvFinish;
 
     @Override
     public void setContentView() {
@@ -65,11 +80,23 @@ public class BeServerGuideSecondActivity extends BaseActivity {
         lhTvTitle.setText("成为服务管家");
     }
 
-    @OnClick({R.id.rtv_join_now})
+    @OnClick({R.id.rll_bind_merchant, R.id.rll_position, R.id.rll_user_info, R.id.rll_notify, R.id.rll_contact, R.id.tv_protocol, R.id.rtv_finish})
     public void onClick(View view) {
         Intent intent;
         switch (view.getId()) {
-            case R.id.rtv_join_now:
+            case R.id.rll_bind_merchant:
+                break;
+            case R.id.rll_position:
+                break;
+            case R.id.rll_user_info:
+                break;
+            case R.id.rll_notify:
+                break;
+            case R.id.rll_contact:
+                break;
+            case R.id.tv_protocol:
+                break;
+            case R.id.rtv_finish:
                 break;
         }
     }
