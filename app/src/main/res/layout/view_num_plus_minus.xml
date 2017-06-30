@@ -44,7 +44,7 @@
             android:maxLength="2"
             android:maxLines="1"
             android:text=""
-            android:textColor="#999999"
+            android:textColor="@color/black"
             android:textColorHint="#999999"
             android:textSize="@dimen/font_32px"/>
     </com.flyco.roundview.RoundRelativeLayout>
@@ -57,9 +57,9 @@
         android:clickable="true"
         android:gravity="center"
         android:text="＋"
-        android:textColor="@color/bg_head"
+        android:textColor="@color/white"
         android:textSize="@dimen/font_30px"
-        app:rv_backgroundColor="@color/white"
+        app:rv_backgroundColor="@color/bg_head"
         app:rv_cornerRadius="100dp"
         app:rv_isRadiusHalfHeight="true"
         app:rv_isRippleEnable="true"

@@ -105,4 +105,6 @@ dependencies {
     compile 'com.yanzhenjie:permission:1.0.7'
     compile 'com.github.chrisbanes.photoview:library:1.2.4'
     compile 'me.grantland:autofittextview:0.2.1'
+    compile 'com.youth.banner:banner:1.4.9'
+
 }
